@@ -1,0 +1,27 @@
+<meta name="color-scheme" content ="dark">
+
+
+<button id="button">Enter</button>
+<button onclick="getStep()">Next</button>
+
+
+<script>
+
+var username = prompt("What is your name?");
+
+var password = prompt("what is your password");
+
+document.write("Hello " + username + " ! " + "Welcome to the learning based quize!");
+
+// Create a variable to find the button element on the screen
+var myButton = document.getElementById("button1");
+// Add the click event to the button to run the Enter function
+myButton.addEventListener("click",  Enter);
+
+// Create a hello function
+function Enter() {
+    // Give the output to the user
+    alert(Start-Quize);
+  }
+
+</script>
