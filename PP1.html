@@ -1,0 +1,88 @@
+<meta name="color-scheme" content ="dark">
+
+<h1 id="intro"></h1>
+<button id="button">Enter</button>
+<button onclick="intro('score')">score</button>
+<h2 id="output"></h2>
+
+<script>
+
+var username = prompt("What is your name?");
+
+var password = prompt("What is your password");
+
+var scoreQ1 = 0;
+var scoreQ2 = 0;
+var scoreQ3 = 0;
+
+// FIND THE "INTRO" ELEMENT
+
+// PUT THE WELCOME TEXT INTO THE INTRO ELEMENT
+	// Create a function to change a colour
+	function intro(score) {
+		// Find the demo element
+		var output = document.getElementById("score");
+		// Check to see that the computer can find your element
+    console.log(output);}
+
+// FIND THE "OUTPUT" ELEMENT
+
+function result() {
+  
+}
+document.write("Hello " + username + " ! " + "Welcome to the learning based quize!");
+
+// Create a variable to find the button element on the screen
+var myButton = document.getElementById("button");
+// Add the click event to the button to run the Enter function
+myButton.addEventListener("click",  Enter);
+
+// Create a hello function
+function Enter() {
+ // Question 1
+    var userQ1 = prompt("Q1. Where is Skövde?\n1. Västra Götaland\n2. Västmanland");
+    if (userQ1 == 1) {
+        alert("Correct!");
+        scoreQ1 += 10; // Add points for correct answer
+    } 
+    
+    else if (userQ1 == 2){
+        alert("Incorrect!");
+        scoreQ1 += 0; // Add points for correct answer
+    }
+
+    // Question 2
+    var userQ2 = prompt("Q2. What is the biggest lake's name in Sweden?\n1. Vänern\n2. Vättern");
+    if (userQ2 == 1) {
+        alert("Correct!");
+        scoreQ2 += 10; // Add points for correct answer
+    } else if (userQ2 == 2){
+        alert("Incorrect!");
+        scoreQ2 += 0; // Add points for incorrect answer
+    }
+    
+     // Question 3
+     
+     var userQ3 = prompt ("Q3. What is name of the capital city in Sweden? \n 1. Gothenburg \n 2. Stockholm");
+
+    if (userQ3 == 2) {
+        alert ("Correct!");
+        scoreQ3 += 10;
+    }
+    else if (userQ3 == 1){
+        alert ("Incorrect!");
+        scoreQ3 += 0; // Add points for incorrect answer
+    }
+    
+    // Calculate total score
+    var totalscore = scoreQ1 + scoreQ2 + scoreQ3;
+    alert("Your total score " + totalscore);
+
+    
+     
+    
+    
+}
+
+
+</script>
