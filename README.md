@@ -8,12 +8,13 @@ The final program is not the goal! The aim of the project is to show how you hav
 
 # Project Notes
 
-> You can use this section of the file to keep notes about your project as you work on it.
+> I tried to creat a programm where user can get experience the quize game which is knowledge based learning. 
 
 # Project Summary
 
-> Before the final submission date you should include a "PROJECT SUMMARY" in this section here. 
-
+> My project is totally Javascript based. I tried to made some code with User Id and password. I put welcoming message to the user and 'Enter' opriong to start the quize.  I used variable as some questions, input choice answer, correct and incorrect method, variable for each question scoring and the totall result on the screen. 
 # User Guide
 
 > Write a clear user guide for how someone should use your program.
+>
+> 1. User will click the link 
