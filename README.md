@@ -12,7 +12,7 @@ The final program is not the goal! The aim of the project is to show how you hav
 
 # Project Summary
 
-> The project is totally Javascript based. I tried to made some code with User name  and Password. I put welcoming message to the user and 'Enter' button option to start the quize.  I made variable as some questions, input choice answer, correct and incorrect method, variable for each question scoring and the totall result on the screen.
+> This project is totally Javascript based. I tried to made some code with User name  and Password. I put welcoming message to the user and 'Enter' button option to start the quize.  I made variable as some questions, input choice answer, correct and incorrect method with 'if and 'else if' statement, Button Id and 'Button' onclick  , Function method,  variable for each question scoring and the totall result on the screen.
 
 # User Guide
 
