@@ -12,9 +12,19 @@ The final program is not the goal! The aim of the project is to show how you hav
 
 # Project Summary
 
-> My project is totally Javascript based. I tried to made some code with User Id and password. I put welcoming message to the user and 'Enter' opriong to start the quize.  I used variable as some questions, input choice answer, correct and incorrect method, variable for each question scoring and the totall result on the screen. 
+> The project is totally Javascript based. I tried to made some code with User name  and Password. I put welcoming message to the user and 'Enter' button option to start the quize.  I made variable as some questions, input choice answer, correct and incorrect method, variable for each question scoring and the totall result on the screen.
+
 # User Guide
 
 > Write a clear user guide for how someone should use your program.
 >
-> 1. User will click the link 
+> 1. User will click the link
+> 2. Put you user name and password
+> 3. user will see the 'Enter' button and at the same time will get the 'greeting message on the screen. 
+> 4. Click the 'Enter button" on the screen
+> 5. Start the quize..
+> 6. Chose the answer and put the number 1 or 2 in the blank box.
+> 7. It will appear the 'correct or incorrect' on the prompt screen.
+> 8. After finishing the all questions answering user will get the total scoring on the main screen.
+> 9. Each right answer is holding mark '10' and each wrong answer is carring '0' . Has no negetive marking!
+> 10. Finish!
